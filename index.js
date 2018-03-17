@@ -11,8 +11,8 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  binding.pry
   delete object.key; 
+  console.log(object.key)
   return {};
 }
 
